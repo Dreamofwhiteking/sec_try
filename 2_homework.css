@@ -1,0 +1,60 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Roboto, sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0; /*Расстояние от края элемента до края другог элемента*/
+
+}
+.header{
+    position: fixed;
+    color: #FFFFFF;
+    background-color: #343A40;
+    font-size: 20px;
+    width: 100%;
+}
+.nav-link,
+.nav-item,
+.nav-link:focus {
+  color: var(--light) !important;
+}
+
+.nav-link:hover {
+  color: rgb(201, 201, 201) !important;
+}
+h1{
+    font-size: 72px;
+}
+.jumbotron{
+    font-size: 16px;
+    color: #212529;
+    background-color: #E9ECEF;
+    padding: 116px 50px 60px 50px;
+}
+.button{
+    display: static;
+}
+.profile{
+display: flex;
+    padding: 30px;
+}
+td {
+    color: #007BFF;
+    font-size: 16px;
+}
+.data{
+    color: #000000;
+}
+.footer{
+     background-color: #F5F5F5;
+     color: #6C757D;
+     font-size: 16px;
+     padding: 16px; 0;
+     text-align: center;
+}
